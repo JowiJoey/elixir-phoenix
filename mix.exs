@@ -1,9 +1,9 @@
-defmodule Motivaocyber.Mixfile do
+defmodule TestFramework.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :motivaocyber,
+      app: :testframework,
       version: "0.0.1",
       elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env),
@@ -19,7 +19,7 @@ defmodule Motivaocyber.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {Motivaocyber.Application, []},
+      mod: {TestFramework.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
