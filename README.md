@@ -1,2 +1,2 @@
-# elixir_phoenix
+# elixir-phoenix
 Elixir Phoenix Web Framework 
